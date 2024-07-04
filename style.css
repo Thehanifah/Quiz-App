@@ -1,0 +1,132 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(240, 251, 255);
+}
+
+.container {
+    background-color: #fff;
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+   
+      
+}
+
+.title{
+    color: #0080FF;
+}
+
+.option{
+    background-color: #eee;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 25px;
+
+    
+}
+
+.question,.next, .option, .result{
+    margin: 20px;
+}
+
+.option:hover{
+    background-color: #ccc;
+}
+
+.option-btn{
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 25px;
+    padding: 10px 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    border: none 2px ;
+    justify-content: center;
+    margin: 1%;
+    background-color: #fff;
+  }
+
+
+
+.option-btn:hover{
+    background-color: #eee;
+    
+}
+
+.option-btn:focus{
+    background-color: #6ca9e6;
+    
+}
+.next{
+    cursor:pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color:#0080FF;
+    color: #fff;
+    border: none;
+
+}
+
+.next:hover{
+    width: 100px;
+    background-color: #6ca9e6;
+} 
+
+.results{
+padding: 2%;
+text-align: center;
+
+}
+
+.next:disabled{
+    background-color: #aaa;
+    cursor: no-drop;
+}
+
+#img-container {
+    max-width: 40%;
+    max-height: 70%;
+    }
+
+#perfect-score, #good-job, #not-bad, #oops{
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: auto;
+        height: 80vh;
+    }
+
+#img-container {
+    max-width: 80%;
+    max-height: 80%;
+    }
+
+#perfect-score, #good-job, #not-bad, #oops{
+        max-height: auto;
+        max-width: 90%;
+    
+    }
+    
+}

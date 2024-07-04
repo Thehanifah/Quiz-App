@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Simple Quiz App</h1>
+
+    <div class="container">
+      <div class="questions" id="question">Question is loading...</div>
+
+      <div class="option" id="options"></div>
+
+      <button class="next" id="next-btn" disabled>Next</button>
+      <button class="next" id="prev-btn" disabled>Previous</button>
+      <div class="results" id="result" style="display: none"></div>
+
+      <div id="img-container" style="display: none">
+        <img
+          src="Images/1010.gif"
+          alt="Wow. Perfect Score"
+          id="perfect-score"
+          style="display: none"
+        />
+        <img
+          src="Images/97.gif"
+          alt="Good Job"
+          id="good-job"
+          style="display: none"
+        />
+        <img
+          src="Images/65.gif"
+          alt="Not bad"
+          id="not-bad"
+          style="display: none"
+        />
+        <img src="Images/40.gif" alt="Oops" id="oops" style="display: none" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
