@@ -70,7 +70,7 @@ body{
     
 }
 
-.option-btn:focus{
+.option-btn:focus, .option-btn:active{
     background-color: #6ca9e6;
     
 }
