@@ -65,12 +65,9 @@ body{
 
 
 
-.option-btn:hover{
-    background-color: #eee;
-    
-}
 
-.option-btn:focus, .option-btn:active{
+
+.option-btn:hover, .option-btn:focus, .option-btn:active{
     background-color: #6ca9e6;
     
 }
