@@ -173,11 +173,15 @@ function displayGifs(){
 }
 
 
+document.getElementById('home').addEventListener('click', () =>{
+  questions.length= 0
+  window.location.reload();
+})
 
 
 // Invoke function
 displayQuestion();
-prevQuestion()
+prevQuestion();
 
 
 // add a previous button
