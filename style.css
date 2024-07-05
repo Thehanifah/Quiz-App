@@ -69,7 +69,7 @@ body{
 
 .option-btn:hover, .option-btn:focus, .option-btn:active{
     background-color: #6ca9e6;
-    
+    color: #fff;
 }
 .next{
     cursor:pointer;
